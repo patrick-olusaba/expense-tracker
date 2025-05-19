@@ -8,7 +8,8 @@ export default function ExpenseTracker() {
     { id: 1, name: "Groceries", amount: 2000, category: "Food", date: "2025-04-10" },
     { id: 2, name: "Electricity bill", amount: 1500, category: "Utilities", date: "2025-04-05" },
     { id: 3, name: "Movie tickets", amount: 800, category: "Entertainment", date: "2025-04-08" },
-    { id: 4, name: "Gas", amount: 1100, category: "Transportation", date: "2025-04-12" }
+    { id: 4, name: "Gas", amount: 1100, category: "Transportation", date: "2025-04-12" },
+    { id: 5, name: "House", amount: 11000, category: "Rent", date: "2025-04-04" }
   ];
 
   const [expenses, setExpenses] = useState(initialExpenses);
